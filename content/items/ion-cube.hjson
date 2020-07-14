@@ -1,0 +1,6 @@
+name: "Ion Cube"
+type: material
+color: 00ff1d
+flammability: 0
+radioactivity: 0
+explosiveness: 0

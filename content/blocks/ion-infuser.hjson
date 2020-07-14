@@ -1,0 +1,46 @@
+type: GenericSmelter
+name: "Ion Infuser"
+description: "Smelts ion cubes, surge alloy, and phase fabric together with magmafluid"
+
+itemCapacity: 10
+health: 450
+size: 3
+
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+power: 2
+  items: {
+    items: [
+      ion-cube/1
+      surge-alloy/2
+      phase-fabric/2
+    ]
+  }    
+  liquid: {
+    liquid: magmafluid
+    amount: 0.8
+  }
+}
+
+requirements: [
+  copper/200
+  silicon/150
+  metaglass/250
+  thorium/200
+  ion-cube/20
+]
+
+category: crafting
+research: ion-synthesizer
+
+activeSound: machine
+activeSoundVolume: 1.75
+idleSound: respawning
+idleSoundVolume: 0.75
+
+outputItem: infused-alloy/4

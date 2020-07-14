@@ -1,0 +1,3 @@
+name: Zone of Power
+description: A powerful enemy base beyond our comprehension
+objective: survive

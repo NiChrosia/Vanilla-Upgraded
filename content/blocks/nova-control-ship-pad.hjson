@@ -1,0 +1,31 @@
+name: Nova Ship Pad
+description: Provides transformation into a fast construction/mining ship. Use by tapping.
+type: MechPad
+mech: nova-control-ship
+size: 3
+buildTime: 10
+liquidCapacity: 30
+craftTime: 300
+
+consumes: {
+  power: 20
+  items: {
+    items: [
+      ion-cube/1
+    ]
+  }
+}
+
+category: upgrade
+research: glaive-ship-pad
+
+requirements: [
+  titanium/250
+  silicon/100
+  lead/250
+  thorium/100
+  phase-fabric/20
+  plastanium/20
+  surge-alloy/50
+  infused-alloy/64
+]

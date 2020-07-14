@@ -1,0 +1,33 @@
+//type: MassDriver
+name: Ion Mass Driver
+description: "A powerful massive driver, with much faster speed, allowed by ion technology, requires far more power"
+health: 650
+size: 3
+range: 520
+buildCostMultiplier: 1.33333333
+itemCapacity: 240
+reloadTime: 30
+outlineIcon: false
+expanded: true
+minDistribute: 10
+shootEffect: shootBig2
+smokeEffect: lancerLaserShoot
+recieveEffect: mineHuge
+knockback: 10
+translation: 14
+shake: 3
+consumes: {
+  power: 12
+}
+
+requirements: [
+  copper/300
+  lead/200
+  graphite/150
+  titanium/300
+  silicon/200
+  plastanium/50
+  thorium/250
+]
+category: distribution
+research: mass-driver

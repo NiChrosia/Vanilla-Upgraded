@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "Magmafluid Crucible"
+description: "Smelts titanium and pyratite together with lava"
+liquidCapacity: 30
+itemCapacity: 20
+outputLiquid: magmafluid/24
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+	power: 0.5
+	items: {
+	items: [
+			titanium/4
+			pyratite/1
+		]
+	}
+	liquid: {
+		liquid: lava
+		amount: 12
+	}
+}
+requirements: [
+	titanium/200
+	copper/300
+	lead/200
+	silicon/150
+	surge-alloy/100
+]
+category: crafting
+research: cryofluidmixer

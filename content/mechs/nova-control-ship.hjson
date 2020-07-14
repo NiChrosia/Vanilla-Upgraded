@@ -1,0 +1,35 @@
+name: Nova
+description: "A advanced control ship, used for building and mining."
+speed: 2.4
+maxSpeed: 12.6
+flying: true
+engineSize: 2
+drillPower: 5
+mineSpeed: 3
+itemCapacity: 100
+buildPower: 3
+health: 150
+weapon: {
+  name: Energy Repeater
+  length: 3
+  width: 4
+  shots: 1
+  reload: 15
+  recoil: 5
+  shootSound: pew
+  alternate: true
+  bullet: {
+    type: MissileBulletType
+
+    frontColor: f5ff64
+    trailColor: f5ff64
+    backColor: f5ff64
+
+    lifetime: 100
+    alternate: true
+    homingPower: 1
+    homingRange: 150
+    speed: 4
+    damage: 35
+  }
+}

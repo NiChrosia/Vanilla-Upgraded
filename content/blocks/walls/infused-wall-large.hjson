@@ -1,0 +1,11 @@
+name: "Large Infused Wall"
+description: A wall made of infused alloy. Extremely hard to destroy. Spans multiple tiles.
+type: Wall
+health: 17440
+size: 2
+buildCostMultiplier: 2
+requirements: [
+  infused-alloy/16
+]
+category: defense
+research: infused-wall

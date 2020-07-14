@@ -1,0 +1,10 @@
+name: "Infused Wall"
+description: A wall made of infused alloy. Extremely hard to destroy.
+type: Wall
+health: 4360
+size: 1
+requirements: [
+  infused-alloy/4
+]
+category: defense
+research: surge-wall-large

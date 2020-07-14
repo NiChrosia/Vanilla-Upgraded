@@ -1,0 +1,29 @@
+//use a custom ogg sound for shooting
+//shootSound: swings
+
+//define ammo, which is done by assigning a bullet type per item
+ammo: {
+  //re-define old types of ammo
+  water: waterShot
+  cryofluid: cryoShot
+  slag: slagShot
+  oil: oilShot
+  
+  //define a custom type with different properties
+	magmafluid: {
+		type: LiquidBulletType
+		speed: 1.5
+		lifetime: 150
+		status: melting
+		liquid: magmafluid
+		knockback: 0.8
+	}
+ 	lava: {
+		type: LiquidBulletType
+		speed: 1.2
+		lifetime: 120
+		status: melting
+		liquid: lava
+		knockback: 0.7
+	}
+}

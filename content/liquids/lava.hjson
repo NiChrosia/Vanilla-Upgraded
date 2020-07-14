@@ -1,0 +1,10 @@
+name: Lava
+color: C12D00
+barColor: C12D00
+lightColor: FF7D13
+flammability: 0.05
+temperature: 1.5
+heatCapacity: 0.00
+viscosity: 0.8
+explosiveness: 0.00
+effect: melting

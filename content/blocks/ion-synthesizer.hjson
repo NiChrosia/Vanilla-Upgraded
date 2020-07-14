@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: "Ion Synthesizer"
+description: "Combines large amounts of power to create ion cubes"
+
+itemCapacity: 10
+health: 450
+size: 3
+
+hasPower: true
+
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+	power: 16.6667
+}
+
+requirements: [
+  copper/200
+  titanium/200
+  silicon/150
+  metaglass/250
+  thorium/200
+]
+
+category: crafting
+research: alloy-smelter
+
+activeSound: machine
+activeSoundVolume: 1.75
+idleSound: respawning
+idleSoundVolume: 0.75
+
+outputItem: ion-cube/1

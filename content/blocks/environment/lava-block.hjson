@@ -1,0 +1,14 @@
+name: Lava
+type: floor
+speedMultiplier: 0.1
+variants: 3
+liquidDrop: lava
+drownTime: 150
+status: melting
+statusDuration: 300
+isLiquid: true
+cacheLayer: water
+damageTaken: 5
+walkEffect: melting
+drawLiquidLight: true
+drownUpdateEffect: burning

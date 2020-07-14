@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: "Silicon Crucible"
+description: " "
+liquidCapacity: 30
+itemCapacity: 20
+outputItem: {
+	item: silicon
+	amount: 4
+}
+size: 3
+hasPower: true
+hasLiquids: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+	power: 0.5
+	items: {
+	items: [
+		coal/3
+		sand/6
+		pyratite/1
+		]
+	}
+}
+requirements: [
+	titanium/100
+	copper/50
+	lead/100
+	silicon/25
+	graphite/25
+]
+category: crafting
+research: silicon-smelter

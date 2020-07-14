@@ -1,0 +1,34 @@
+type: MendProjector
+name: Ion Mender
+description: Sends powerful mending waves at towers over long ranges, utilizing ion technology.
+health: 650
+size: 3
+reload: 500
+range: 360
+healPercent: 25
+phaseBoost: 25
+phaseRangeBoost: 120
+useTime: 600
+hasPower: true
+
+consumes: {
+  power: 12
+  items: {
+    items: [
+      ion-cube/1
+    ]
+    booster: true
+	optional: true
+  }
+}
+
+requirements: [
+  infused-alloy/24
+  ion-cube/10
+  titanium/200
+  phase-fabric/100
+  surge-alloy/100
+  silicon/150
+]
+category: effect
+research: mend-projector

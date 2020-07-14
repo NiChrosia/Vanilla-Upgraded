@@ -1,0 +1,13 @@
+health: 10
+type: Conveyor
+name: Ion Conveyor
+description: A ultrafast conveyor with insane speeds, with very low health
+requirements: [
+  ion-cube/1
+  silicon/2
+  titanium/2
+]
+category: distribution
+speed: 0.35
+displayedSpeed: 20.0
+research: titanium-conveyor

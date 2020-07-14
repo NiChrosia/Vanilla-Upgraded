@@ -1,0 +1,7 @@
+name: Ion Technology
+displayName: "[green]Ion Technology"
+author: NiChrosia
+description: "Adds a whole new tier of resources, themed around ion technology"
+version: "1.28"
+minGameVersion: "104.6"
+dependencies: [ ]
